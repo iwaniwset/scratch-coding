@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scratch Coding</title>
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body>
+
+  <header class="bg-slate-900 absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+      <div class="relative flex items-center justify-between">
+        <div class="px-4">
+          <a href="#"><img src="./dist/img/logo.png" class="w-36 cursor-pointer my-5 mx-2 items-center" alt=""></a>
+        </div>
+        <div class="flex items-center px-4">
+          <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
+            <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+            <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+          </button>
+
+          <nav id="nav-menu"
+            class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark dark:shadow-slate-500 lg:font-sans lg:text-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:dark:bg-transparent">
+            <ul class="block lg:flex">
+              <li class="group">
+                <a href="#home"
+                  class="mx-8 flex py-2 text-base text-dark group-hover:text-yellow-400 dark:text-white">Beranda</a>
+              </li>
+              <li class="group">
+                <a href="#about"
+                  class="mx-8 flex py-2 text-base text-dark group-hover:text-yellow-400 dark:text-white">Tentang
+                  Saya</a>
+              </li>
+              <li class="group">
+                <a href="#portfolio"
+                  class="mx-8 flex py-2 text-base text-dark group-hover:text-yellow-400 dark:text-white">Portfolio</a>
+              </li>
+              <li class="group">
+                <a href="#clients"
+                  class="mx-8 flex py-2 text-base text-dark group-hover:text-yellow-400 dark:text-white">Clients</a>
+              </li>
+              <li class="group">
+                <a href="#blog"
+                  class="mx-8 flex py-2 text-base text-dark group-hover:text-yellow-400 dark:text-white">Blog</a>
+              </li>
+              <li class="group">
+                <a href="#contact"
+                  class="mx-8 flex py-2 text-base text-dark group-hover:text-yellow-400 dark:text-white">Contact</a>
+              </li>
+              <li class="mt-3 flex items-center pl-8 lg:mt-0">
+                <div class="flex">
+                  <span class="mr-3 items-center text-base text-slate-50">Light</span>
+                  <input type="checkbox" class="hidden" id="dark-toggle" />
+                  <label for="dark-toggle">
+                    <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                      <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out">
+                      </div>
+                    </div>
+                  </label>
+                  <span class="ml-3 text-base text-slate-50">Dark</span>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- navbar section starts -->
+  <!-- <div class="bg-slate-900 flex justify-between">
+    <img src="./dist/img/logo.png" class="w-48 cursor-pointer my-5 mx-10 items-center" alt="">
+    <div class="flex justify-between items-center text-gray-100">
+      <div class="mr-10 text-xl">
+        <a href="#" class="line">How it Works</a>
+        <a href="#" class="line">The membership</a>
+        <a href="#" class="line">The blog</a>
+        <a href="#" class="line">Oucr story</a>
+      </div>
+      <div
+        class="mr-10 text-2xl py-2 px-10 cursor-pointer bg-yellow-500 rounded-lg text-slate-900 hover:bg-yellow-300 hover:text-slate-900">
+        Get Started
+      </div>
+    </div>
+  </div> -->
+
+  <!-- navabr section end -->
+
+  <!-- hero section start -->
+  <script src="./dist/js/script.js"></script>
+</body>
+
+</html>

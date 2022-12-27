@@ -1,0 +1,23 @@
+{
+  "name": "scratch-coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwaniwset/scratch-coding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwaniwset/scratch-coding/issues"
+  },
+  "homepage": "https://github.com/iwaniwset/scratch-coding#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
